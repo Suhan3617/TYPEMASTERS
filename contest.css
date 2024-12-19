@@ -1,0 +1,95 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(188 255 255 / 45%);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.contest-container{
+    margin: 30px auto;
+    padding: 30px;
+    width: 75vw;
+    height: 700px;
+    /* max-width: 1000px; */
+    background-color: rgb(0, 173, 300);
+    border-radius: 25px;
+    box-shadow: 0 6px 12px rgba(0, 3, 1, 0.3);
+}
+h1{
+    color: white;
+    font-size: 43px;
+}
+.choices{
+    margin-bottom: 10px;
+}
+.time{
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 1.3em;
+} 
+#time{
+    margin: 10px 14px;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    background-color: #dfeffe;
+} 
+.difficulty{
+    margin: 10px 4px;
+    padding: 10px;
+    font-size: 1.3em;
+} 
+#difficulty{
+    margin: 10px 5px;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 15px;
+    background-color: #dfeffe;
+} 
+.options{
+    margin: 10px 5px;
+    padding: 10px;
+    font-size: 1.3em;
+} 
+.textdisplay{
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #dfeffe;
+    border: 2px solid rgb(34, 34, 34);
+    border-radius: 25px;
+}
+h2{
+    color: rgb(35, 35, 35);
+    margin-top: -3px;
+}
+#textgenerated{
+    color: rgb(55, 55, 55);
+    font-size: 1em;
+    text-align: left;
+}
+textarea{
+    width: 98%;
+    margin: 15px 0px;
+    padding: 15px;
+    font-size: 1.1em;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.timer{
+    font-size: 1.3em;
+    color: black;
+    margin-top: 10px;
+}
+button{
+    background-color: rgb(255 68 68);
+    color: rgb(32, 4, 4);
+    border: none;
+    padding: 15px 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 18px;
+}
+button:hover{
+    background-color: white;
+}
